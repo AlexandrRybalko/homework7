@@ -3,6 +3,7 @@
     public class UberPlayer : Player
     {
         private int currentNumber = 40;
+
         public override int GuessTheWeight()
         {
             return currentNumber++;
